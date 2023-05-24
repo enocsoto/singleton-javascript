@@ -1,9 +1,9 @@
 import { dibujarRow ,eventosButton } from "./controller/index.js";
 
-const dibujar =()=>{
+const dibujarCalculadora =()=>{
     const divDerecha= document.querySelector('.derecha')
     divDerecha.innerHTML += dibujarRow()
     eventosButton()
 }
 
-dibujar()
+dibujarCalculadora()
