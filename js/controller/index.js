@@ -1,2 +1,2 @@
-export { dibujarRow } from "./cal.controller.js";
+export { dibujarRow,eventosButton } from "./cal.controller.js";
 

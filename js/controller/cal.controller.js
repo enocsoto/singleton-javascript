@@ -13,3 +13,10 @@ export const dibujarRow = () => {
     ]
     return arrayFilas.reduce((acc, item) => acc + item , [])
 }
+
+export const eventosButton =()=>{
+    document.querySelectorAll('button').forEach(item =>{
+        item.addEventListener('click', ()=> console.log(item.innerText))
+    })
+}
+
