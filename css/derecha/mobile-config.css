@@ -1,0 +1,10 @@
+@media screen and (min-width: 800px) {
+    .derecha{
+        background-color: brown;
+        color:#ebebeb;
+    }
+
+
+    
+    /* ... Tus estilos para pantallas pequeñas aquí ... */
+}

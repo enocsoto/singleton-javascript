@@ -14,9 +14,15 @@ export const dibujarRow = () => {
     return arrayFilas.reduce((acc, item) => acc + item , [])
 }
 
+const addList = (leyenda)=>{
+    document.querySelector('.izquierda').value+= `${leyenda}`
+}
+
 export const eventosButton =()=>{
     document.querySelectorAll('.calcu-button').forEach(item =>{
-        item.addEventListener('click', ()=> console.log(item.innerText))
+        item.addEventListener('click', ()=> addList(item.innerText))
     })
 }
+
+
 
