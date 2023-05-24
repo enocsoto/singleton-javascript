@@ -15,7 +15,7 @@ export const dibujarRow = () => {
 }
 
 export const eventosButton =()=>{
-    document.querySelectorAll('button').forEach(item =>{
+    document.querySelectorAll('.calcu-button').forEach(item =>{
         item.addEventListener('click', ()=> console.log(item.innerText))
     })
 }

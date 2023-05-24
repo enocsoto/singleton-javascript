@@ -1,3 +1,3 @@
 export const createButton = ( leyenda )=>{
-    return ` <button>${leyenda}</button>`
+    return ` <button class='calcu-button'>${leyenda}</button>`
 }
