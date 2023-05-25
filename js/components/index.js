@@ -1,0 +1,1 @@
+export { pintarTask } from "./task.view.js";

@@ -1,3 +1,2 @@
-@import url('./tools/reset.css');
-@import url('./derecha/index.css');
-@import url('./animations/slidein.css');
+@import url('./reset/reset.css');
+@import url('./animations/flipin.css');

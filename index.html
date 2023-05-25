@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script type="module" src="./js/index.js"></script>
+    <title>Task Enoc</title>
+    <script type="module" src="./js/main.js"></script>
     <link rel="stylesheet" href="./css/main.css">
 </head>
-
 <body>
-    <div class="container slideInDown">
-        <div class="derecha">
-        </div>
-        <textarea rows="5" class='izquierda'></textarea> 
-    </div>
+   <div class="tittle">Listar Tareas<div>
+    <form id="taskForm">
+        <input type="text" class="taskInput flipInX" placeholder="Nueva tarea">
+        <button type="submit">ingresar</button>
+    </form>
+    <ul id="taskList"></ul>
 </body>
-
 </html>
